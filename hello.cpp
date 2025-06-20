@@ -5,9 +5,10 @@ int main() {
     std::cout << "Hello world from Rena!" << std::endl;
 
     int a, b;
-    std::cout << "Ââåäèòå äâà ÷èñëà: ";
+    std::cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ğ´Ğ²Ğ° Ñ‡Ğ¸ÑĞ»Ğ°: ";
     std::cin >> a >> b;
 
-    std::cout << "Áîëüøåå ÷èñëî: " << ((a > b) ? a : b) << std::endl;
+    std::cout << "Ğ‘Ğ¾Ğ»ÑŒÑˆĞµĞµ Ñ‡Ğ¸ÑĞ»Ğ¾: " << ((a > b) ? a : b) << std::endl;
+    std::cout << "Ğ¡Ñ€ĞµĞ´Ğ½ĞµĞµ: " << (a + b) / 2.0 << std::endl;
     return 0;
 }
